@@ -1,0 +1,114 @@
+body{
+  font-family: "Poppins",sans-serif;
+}
+
+.menubar{
+	background: #fff;
+}
+
+.menubar ul li{
+	list-style: none;
+	padding:5px;
+}
+
+.menubar ul li a{
+	text-decoration: none;
+	color: #262626;
+	display:block;
+	padding: 8px;
+	transition: 0.1s;
+}
+
+
+.menubar .nav-item li a:hover,
+.menubar .nav-item li .active{
+	color: #ef941f;
+}
+
+
+.home{
+	margin: 100px auto;
+}
+
+
+.middle{
+	margin: 100px auto;
+}
+
+
+.why{
+	padding-top: 14px;
+	margin: 100px auto;
+	background: #f6f6f6;
+}
+
+
+.dot{
+	height: 10px;
+	width: 18px;
+	background: #ef941f;
+	border-radius: 50%;
+	margin-right: 15px;
+	margin-top: 6px;
+}
+
+
+.box-btn{
+	color: #fff;
+	text-decoration: none;
+	padding: 12px;
+	background: #79c144;
+	border-radius: 5px 5px 5px 5px;
+}
+
+footer{
+	margin-top: 100px;
+	background: #222222;
+}
+
+.f-menu ul li{
+	list-style: none;
+}
+
+.f-menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+
+p{
+	color: #6a6a6a;
+}
+h1{
+	color: #222222;
+}
+
+
+header{
+	padding: 15 10px;
+	background: #79c045;
+}
+
+.form-wrapper {
+	padding: 15px;
+	border: 1px solid #ddd;
+}
+
+.form-wrapper input[type=text],
+.form-wrapper input[type=email],
+.form-wrapper input[type=password],
+.form-wrapper select,select{
+	padding: 8px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #ddd;
+}
+
+.table thead tr th{
+	color:#414141;
+}
+
